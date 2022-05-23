@@ -92,7 +92,7 @@
 &&GM_ep_situation_total_reached2 被&1们弄高潮了 &2 次
 &&GM_ep_situation_total_multi (连续高潮的次数 &1)
 
-&&GM_ep_situation_default 两周前，在学园的袭击事件中被十数个魔物当作目标...
+&&GM_ep_situation_default 从来没有体验过那种事情，十分好奇……
 
 &&GM_ep_title_sensitivity 身体的经验值
 &&GM_ep_title_egg_total 生产过的卵的数目
