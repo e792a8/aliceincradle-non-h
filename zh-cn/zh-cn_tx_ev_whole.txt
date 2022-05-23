@@ -1,0 +1,143 @@
+%FAMILY zh-cn
+&&Talker_Noel 诺艾儿・柯涅尔
+&&Talker_Laevi 丽薇歌塔・柯涅尔
+&&Talker_Primula 普莉姆拉
+&&Talker_Ixia 伊夏・波利斯塔切尔
+
+
+// ========================================================
+// MARK : 220115追加
+// ========================================================
+
+&&Talker_Unknown ？？？
+&&Talker_Mob ＊
+&&Talker_Nightingale 南丁格尔
+&&Talker_Alma 阿尔玛・奥普菲帕姆
+&&Talker_Guard 村庄卫兵
+
+&&EV_access_alchemy   开始炼金
+&&EV_access_cook   开始烹饪
+&&EV_access_atelier   进入姐姐的工房
+&&EV_access_myroom   进入自己的房间
+&&EV_access_shower   进入浴室
+&&EV_access_restroom   进入卫生间
+&&EV_access_dadroom   进入父亲的房间
+&&EV_access_terrace   前往提拉斯
+
+&&EV_access_warp_oneway 回到存档位置(单向)
+&&EV_access_warp 传送
+
+&&EV_access_fasttravel 前往其他地点
+
+
+
+&&Select_yes 是
+&&Select_no 否
+&&Select_yep 嗯
+&&Select_nope 不…
+&&Select_see_masturbate 观看自慰过程
+&&Select_skip 跳过
+&&Select_buying 买东西
+&&Select_talk 聊天
+&&Select_nothanks 没什么事
+
+
+&&Select_gate 正门前
+&&Select_entrance 玄关
+&&Select_garden 庭院
+&&Select_myroom 自己的房间
+
+
+&&EvTitle_YourName 关于你的名字
+&&EvTitle_ReasonForMoving 到处走的原因
+&&EvTitle_Wanted 寻人启事
+&&EvTitle_hp_red HP低下状态
+
+
+
+
+
+&&Tuto_punch <key z/> 弱攻击
+
+
+&&Select_sitdown 坐在旁边
+&&Select_stop_sitdown 不坐下
+
+//選択肢
+&&Select_daijoubu 不要紧了
+&&Select_notgood 感觉还不太好...
+
+
+// 選択肢 ～～
+&&Select_noproblem 很正常
+&&Select_weird 很奇怪
+
+
+// ========================================================
+// MARK : 2202 追加分
+// ========================================================
+&&Talker_Tilde 提尔德・柯涅尔
+&&Talker_NoelDad 德尔菲尼・柯涅尔
+&&Talker_Customer 客人
+&&Talker_Walross 瓦洛斯
+&&Talker_Ostrea 奥斯托莉雅
+&&Talker_Army 士兵
+
+&&Talker_elf_man 精灵男性
+&&Talker_elf_madam 精灵大姐姐
+&&Talker_elf_woman 精灵女性
+&&Talker_elf_student 精灵学生
+&&Talker_NoelCane 诺艾儿的法杖
+&&Talker_IxiaCane 伊夏的法杖
+
+&&Tuto_collect <key submit/> 采集
+&&Tuto_magic 长按<key x/> 咏唱魔法
+&&Tuto_map <key a/> 打开地图确认目的地
+&&Tuto_wakeup <key submit/> 起身
+&&Tuto_magic_dropbomb <key x/>+<key ba/> 地面炸弹
+&&Tuto_menu <key menu/> 打开菜单
+&&Tuto_guard 长按<key lsh/> 展开护盾
+&&Tuto_evade <key lsh/>+<key la/><key ra/> 闪避
+&&Tuto_evade_0 <key lsh/>+<key la/><key ra/> ... 闪避 剩余3次
+&&Tuto_evade_1 <key lsh/>+<key la/><key ra/> ... 闪避 剩余2次
+&&Tuto_evade_2 <key lsh/>+<key la/><key ra/> ... 闪避 剩余1次
+
+&&Tuto_fireball <key x/>+<key la/> 发射聚能火球后按下 <key ta/> 调整轨道
+
+&&Select_kitchen 厨房
+&&EV_access_costume_change   换衣服(未实装)
+&&EV_access_scene_memory   回忆(未实装)
+&&EV_access_theroom_occupied   休息室(使用中)
+&&EV_access_theroom_wip   休息室(未实装)
+&&EV_access_read 阅读
+
+
+&&EV_access_collect_by_attack 使用攻击／魔法进行采集
+&&EV_access_collected_already 已采集完毕
+
+
+
+
+&&Select_cook_tutorial 请教烹饪的方法
+&&Select_lunchtime 享用料理
+
+&&EvTitle_AboutMana 关于魔力
+&&EvTitle_Cane 关于法杖
+&&EvTitle_Cooking 关于烹饪
+&&EvTitle_Cooking2 食用料理的益处
+&&EvTitle_Cooking3 我也想做菜！
+&&EvTitle_StomachAndEfficient 满腹度与影响度
+
+
+&&EvTitle_HomeRoad 回家路上
+&&EvTitle_ForestRoad 林中道路
+&&EvTitle_Village 精灵之村
+
+&&EvTitle_MtrQuality 关于素材的品质
+&&EvTitle_Dangerousness 危险度
+&&EvTitle_BattleReward 击败魔族的战利品
+&&EvTitle_Weather 天气
+
+&&EvTitle_Quake 轰鸣声
+&&EvTitle_Memory 儿时回忆
+&&EvTitle_Sell 商品

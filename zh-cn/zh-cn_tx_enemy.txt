@@ -1,0 +1,49 @@
+%FAMILY zh-cn
+
+&&Enemy_WORMS 虫群
+&&Enemy_OTHER 敌人
+&&Enemy_MUSH 蘑菇
+&&Enemy_MAGE 愚者
+&&Enemy_TENTACLE 触手
+
+&&Summoner_forest_mush_coroseum 菌丝霸主
+&&Summoner_forest_cliff_portal 暗夜帷幕
+
+&&Summoner_forestS_swamp 潮声
+
+// ========================================================
+// MARK : 220121追加
+// ========================================================
+
+&&Summoner_forest_mushpot2 孢子的舞台
+&&Summoner_forest_mush_narrowroad 小心头顶
+&&Summoner_forest_foxhall 炎舞神乐
+&&Summoner_forest_buibui 旋转木马
+&&Summoner_forest_wood_slash 飞瀑空穴
+&&Summoner_forest_senzyo 土龙巢穴
+&&Summoner_forest_tikuwar 卑鄙的后勤兵
+&&Summoner_forest_nightlake 湖面的海市蜃楼
+&&Summoner_forest_clocktower 机关人偶
+&&Summoner_forest_acid_lake 酸池之底的猬鼠
+&&Summoner_forest_tomato 鲜血镇压者
+&&Summoner_forest_treecrack 裂缝看守者
+&&Summoner_forest_darkpotu 惊吓玩偶盒
+&&Summoner_forest_toybox 盗掘者
+&&Summoner_forest_senzyo2cliff  狗狗乐园
+&&Summoner_forest_wood_hall  酸木前餐
+&&Summoner_forest_wood_right_exit  空中回廊
+&&Summoner_forest_nightacid  酸池深渊
+
+&&Enemy_PUPPY 幼犬
+
+
+&&Enemy_GOLEM 木偶
+&&Enemy_GOLEM_OD 巨人
+&&Enemy_GOLEM_OD2 巨人
+&&Enemy_FOX 妖狐
+&&Enemy_UNI 剑山
+// Sea Urchin
+&&Enemy_SNAKE 土蛇
+&&Enemy_SPONGE 海绵
+
+&&Summoner_can_battle_in_night 仅可在夜间战斗

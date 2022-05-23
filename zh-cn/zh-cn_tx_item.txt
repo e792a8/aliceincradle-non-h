@@ -1,0 +1,561 @@
+%FAMILY zh-cn
+
+
+%ITEM fruit_cherry0 血樱桃
+可以恢复少量体力的果实。
+虽然直接吃也很美味，
+但作为恢复药的素材也有很高的价值。
+
+%ITEM fruit_apple0 血苹果
+可以恢复中量体力的果实。
+虽然直接吃也很美味，
+但作为恢复药的素材也有很高的价值。
+
+%ITEM fruit_pine0 血菠萝
+可以恢复中量体力的果实。
+虽然直接吃也很美味，
+但作为恢复药的素材也有很高的价值。
+
+%ITEM anc_mp0 恩惠的生命之符
+凝聚有对大地恩惠的祈祷的护符。
+不仅能恢复全部的MP，
+还能修复魔法师被蹂躏后受伤的心灵。
+然而，这充其量也只是一时的慰藉。
+
+%ITEM fruit_epdmg_apple0 禁忌的苹果
+形状奇妙的苹果。
+或许跟古老的神话有着一些联系...？
+
+%ITEM gummy_mp0 魔力软糖
+由凝胶和魔力结晶混合制成之物。
+是很受魔法师和炼金术师欢迎的便携食品。
+
+
+%ITEM gummy_hp0 活力软糖
+由凝胶和魔力结晶混合制成之物。
+是很受魔法师和炼金术师欢迎的便携食品。
+
+%ITEM special_inventory0 整顿术
+可用于扩充道具栏上限。
+大概会成为体验版限定的道具。
+
+%ITEM mtr_jelly0 凝胶
+一种主要来源于史莱姆型魔族的素材。
+虽然也不是不能吃，
+但吃了也就只能补充些许水分。
+
+%ITEM mtr_bottle0 空瓶子
+可用于承装各种各样的液体。
+持有空瓶子就可以自动拾取
+所有液体类型的道具。
+在诺艾儿败给魔族时有可能会碎掉。
+
+%ITEM mtr_essence0 黑暗精华
+击败魔族时可以获取的
+带有粘性的液体。
+
+%ITEM mtr_water0 新鲜的水
+喝了之后能让心情
+变得舒畅一点。
+
+%ITEM mtr_noel_juice0 诺艾儿汁
+持有空瓶的状态下，诺艾儿漏出
+魔力或液体时自动获得。
+虽说可以恢复少量魔力...。
+
+%ITEM mtr_bottle_life0 生命瓶
+恢复${_VALUE}体力。
+
+
+// ========================================================
+// MARK : 220115追加分
+// ========================================================
+
+// ノエルジュースの日本語版の説明が少し変わっているので注意して下さい。 220502 hinayua
+
+%ITEM mtr_wheat 小麦
+被地上城市作为主食的植物。
+可作为便携食品的素材。
+
+
+%ITEM mtr_lettuce 莴苣
+绿油油且鲜嫩的蔬菜。
+
+// ========================================================
+// MARK : 貴重品
+// ========================================================
+
+%ITEM precious_noel_cloth 旧式治疗师制服
+曾经在精灵之村被采用过的，
+奶奶穿剩下的军用制服。
+
+
+%ITEM precious_dangerous_meter 魔力磁计
+通过检测魔力的指向
+可显示出现在所处位置
+大概的危险度的装置。
+是作为冒险者必不可少的道具，
+颜色变浓的话，
+还是趁早回到据点比较好。
+
+&&desc_dangerous_meter 在状态页面\n可以确认危险度
+
+
+%ITEM precious_noel_shorts 棉质内裤
+正面装饰有蝴蝶结的
+白色内裤。
+
+%ITEM enhancer_slot 强化插槽
+用于扩展法杖的强化槽位的
+扩充用部件。
+处于异常状态时
+可能会导致部分功能暂时不可用。
+
+
+
+// ========================================================
+// MARK : その他
+// ========================================================
+
+&&prefix_item_broken 残破的
+&&prefix_item_splashed 脏兮兮的
+&&item_abb_noel_cloth 制服
+
+&&desc_noel_cloth_0 对我而言胸口有点紧...。
+&&desc_noel_cloth_2 已经被撕裂到\n残破不堪了。
+&&desc_noel_cloth_1 全身上下都被魔族的体液污染了。
+
+&&detail_noel_cloth_0 只要未被撕破，衣服所受的损伤\n就会在战斗结束后重置
+&&detail_noel_cloth_1 可在长椅处进行修补与清洗
+
+
+&&prefix_item_abb_noel_cloth 制服
+
+&&name_noel_shorts_1 弄脏的内裤
+
+&&desc_noel_shorts_0 触感优良，吸水性也很棒。
+&&desc_noel_shorts_1 被粗鲁对待过的痕迹黏糊糊地沾在布料上，留下了污渍…。
+&&desc_noel_shorts_2 身体中被产下的卵所流出的分泌液\n滴滴答答渗出，弄脏了大腿间的部分。
+
+// ノエルジュースのグレード別特定呼称
+&&noel_juice_grade0 &1
+&&noel_juice_grade1 热乎乎的&1
+&&noel_juice_grade2 鲜榨的&1
+&&noel_juice_grade3 品质优良的&1
+&&noel_juice_grade4 &1・NOUVEAU
+
+
+&&name_skill_book 技能书:&1
+&&desc_skill_book 记载着技能用法的书。\n可以学习「&1」。
+
+
+&&name_enhancer_device 强化：&1
+&&desc_enhancer_device 可以使用强化「&1」。
+&&enhancer_cost 消耗：&1
+
+&&name_recipe_cook 料理菜谱：&1
+&&desc_recipe_cook 可以在厨房\n烹饪「&1」。
+
+&&name_recipe_alchemy 炼金配方：&1
+&&desc_recipe_alchemy 可以在炼金工作室\n制作「&1」。
+
+// ========================================================
+// MARK : レシピ用
+// ========================================================
+
+&&recipe_categ_cook 烹饪
+&&recipe_categ_alchemy 炼金术
+
+&&recipe_item_categ_wheat 谷物
+&&recipe_item_categ_vegi 蔬菜
+&&recipe_item_categ_meat 肉
+&&recipe_item_categ_fish 鱼虾
+&&recipe_item_categ_fruit 水果
+&&recipe_item_categ_mush 蘑菇
+&&recipe_item_categ_egg 蛋类
+&&recipe_item_categ_water 水
+
+
+&&recipe_effect_maxhp 增加最大HP
+&&recipe_effect_maxmp 增加最大MP
+&&recipe_effect_mana_neutral 使用魔法后散落的魔力更不容易被敌人回收
+&&recipe_effect_shield_enpower 强化护盾
+&&recipe_effect_punch_drain 增加弱攻击可夺取的魔力总量
+
+&&__adding &1&2
+// ↑ In English, you should write here "&1 &2"
+&&recipe_adj_enough_specific 大份量&1
+&&recipe_adj_manykind 内容多样
+&&recipe_adj_manykind_specific 内容多样的&1
+&&recipe_double_item &1加&2
+// 2種類のアイテムを1行に入れた場合に使う。「レタスとトマト」さんどいっち などになる。
+
+&&recipe_adj_grade0 奇怪的&1
+&&recipe_adj_grade1 普通的&1
+&&recipe_adj_grade2 略显精致的&1
+&&recipe_adj_grade3 超级好吃的&1
+&&recipe_adj_grade4 神之&1
+
+&&Recipe_title_bread 面包
+&&Recipe_desc_bread 非常适合当早餐。\n放干了还能当作盘子来用。
+
+&&Recipe_title_sandwich 三明治
+&&Recipe_desc_sandwich 据说这种食物的名字\n取自历史上真实存在的人名，\n真的吗？
+
+
+
+
+&&Food_unknown 未知料理
+&&Food_unknown_desc 用二进制编辑器做出来的\n料理，尝起来有种未来的滋味。
+
+
+
+// ========================================================
+// MARK : 2202月
+// ========================================================
+
+%RECIPE_REPLACE mtr_water0
+%RECIPE_REPLACE mtr_seed0 豆子
+
+%ITEM oc_slot 充能插槽
+能将多余的魔力储存起来的容器。
+使用该容器中储存的魔力时，
+施法者可无需咏唱直接施放魔法。
+
+%ITEM timecapsule 陈旧的容器
+以前和姐姐一起埋下的时间胶囊。
+姐姐将来的梦想是……
+………………………………………
+这，这样啊……。
+
+
+%ITEM mtr_lily_bulb0 铃兰球茎
+似乎有剧毒。
+姐姐多次强调不能用嘴去啃。
+
+
+%ITEM mtr_black_harb0 黑纹药草
+「只要用了由这种药草提炼而成的精油，
+　整个人都会变得轻飘飘的，
+　感觉非常舒服哦~！」
+…姐姐是这么说的。
+
+%ITEM mtr_coal0 煤炭
+因为会弄脏手所以不太想碰，
+但要使用炼金术就绝对会用到。
+
+%ITEM mtr_quartz0 石英
+就是块略带闪耀光泽的石头。
+
+%ITEM mtr_amethyst0 紫水晶
+意外地随处可见的矿物。
+听说跟石英没太大的区别。
+姐姐挺喜欢这种石头，帮她收集的话她会很开心。
+
+%ITEM mtr_iron0 铁矿
+人们所说的铁矿石。
+
+
+%ITEM mtr_chrom0 铬
+古代的人们似乎跟我们一样，
+也曾用这种金属构建过属于他们的文明。
+但因为他们使用的素材中能抵抗魔力腐蚀
+的并不多，所以几乎没有留存下什么遗物。
+
+
+
+%ITEM nightingale_bell 商人的铃铛
+可以在南丁格尔小姐的店里买到的铃铛。
+似乎只要把它挂在包包上，
+听到铃铛声音的她就会赶来
+……徒步赶过来。
+
+
+%ITEM cooking_pan 儿童用烹饪锅
+提尔德哥哥用剩下的平底锅。
+有了这个我也是新晋大厨了！
+
+
+
+%ITEM mtr_beast_skin0 魔族的皮肤
+魔族的表皮。
+对魔力有优秀的阻隔能力。
+
+%ITEM mtr_glass0 玻璃碎片
+透明且坚硬的碎片。
+一部分魔族会在其内骨骼中
+生成这种物质。
+
+%ITEM mtr_organ0 魔族的肝脏
+魔族贪欲的结晶。
+用来做料理味道就太苦了。
+%RECIPE_REPLACE mtr_organ0 肝脏
+
+
+%ITEM mtr_meat_demon0 魔族的肉
+魔族的肉。
+吃掉之后浓郁的魔力成分会积聚在
+胃里导致胃胀，因此并不好吃。
+%RECIPE_REPLACE mtr_meat_demon0 魔族内脏
+
+
+%ITEM mtr_meat_chicken0 家畜肉
+取自养在山里的家畜的肉。
+既健康又美味，但尝起来
+会让人有种自命不凡的感觉。
+%RECIPE_REPLACE mtr_meat_chicken0 鸡肉
+
+&&recipe_effect_atk 物理攻击力，魔法霰弹攻击力
+&&recipe_effect_atk_magic 魔法攻击力，魔法霰弹攻击力
+
+%ITEM mtr_cabbage 卷心菜
+拿来做沙拉会更好吃。
+
+&&recipe_effect_arrest_hpdamage_reduce 被束缚时所受HP伤害
+&&recipe_effect_arrest_mpdamage_reduce 被束缚时所受MP伤害
+
+
+%ITEM mtr_tomato 番茄
+多汁粘稠的口感不太能接受。
+但做成番茄酱就很喜欢了。
+&&recipe_effect_evade_nodam_extend 闪避，跌倒起身的无敌时间延长
+
+%ITEM mtr_green_pepper 青椒
+从小到大都
+最讨厌的东西。
+&&recipe_effect_smoke_resist 所受毒雾伤害
+
+%ITEM mtr_paprika 甜椒
+和青椒同种类的东西。
+别以为长得那么多彩多样
+就能骗我吃下去了。
+&&recipe_effect_arrest_escape 挣脱束缚的容易程度
+
+%ITEM mtr_celery 芹菜
+纤维。
+除了纤维还是纤维。
+
+&&recipe_effect_elec_damage_reduce 所受电击伤害
+
+%ITEM mtr_waterplant 茄子
+吸收肉汁后非常美味，
+所以经常用在荤菜里。
+但总感觉美味其实来自肉汁
+而不是茄子本身。
+
+&&recipe_effect_fire_damage_reduce 所受火焰伤害
+
+
+%ITEM mtr_burdock 牛蒡
+比起蔬菜，看起来更像是
+某种制药原料。
+&&recipe_effect_ser_fast 异常状态解除速度
+
+
+%ITEM mtr_carrot 胡萝卜
+给人一种饲料的感觉。
+&&recipe_effect_sink_reduce 摔倒的容易程度
+
+%ITEM mtr_beets 甜菜
+甘甜又美味。
+榨出的汁能当果汁喝，
+也能用作调味料。
+要是提尔德哥哥只种这个就好了。
+
+%ITEM mtr_cucumber 黄瓜
+反正九成都是水，
+还是直接喝水要更美味些。
+
+
+%ITEM mtr_turnip 蔓菁
+嚼嚼嚼嚼……。
+&&recipe_effect_chant_speed_overhold MP枯竭时的咏唱速度
+
+
+%ITEM mtr_corn 玉米
+味道甜美，容易饱肚子，
+还能加工成玉米油，是用途广泛的谷物。
+但直接一口咬下去会弄得牙缝里都是，
+半天都不舒服。
+&&recipe_effect_reel_speed 宝箱转轮速度
+
+%ITEM mtr_onion 洋葱
+能够软化肉质的好伙伴，
+除此之外无需多言。
+&&recipe_effect_ser_resist 异常状态抗性
+
+%ITEM mtr_garlic 大蒜
+炒肉时可万万不可没有它。
+&&recipe_effect_lost_mp_when_chanting 咏唱中受到攻击的魔力丧失量
+
+%ITEM mtr_broccoli 西兰花
+就算它营养价值很高
+但不分青红皂白强行推荐别人去吃
+也未免有些不合适了。
+&&recipe_effect_mp_gaze_resist MP计量槽碎裂的容易程度
+
+%ITEM mtr_noel_egg 诺艾儿的卵
+……痛死了。
+只要未陷入无法战斗状态，
+便可以安全回收。
+虽然不太情愿……
+&&recipe_effect_chant_speed 咏唱速度
+%RECIPE_REPLACE mtr_noel_egg 诺艾儿卵
+
+%ITEM mtr_egg 家禽蛋
+养在山里的家禽生下的蛋。
+居然把还未孵化的生物
+做成菜肴吃掉，
+我们可真是罪孽深重。
+但正因如此，它才有这般美味吧。
+
+%ITEM mtr_mush 蘑菇
+精灵之村的孩子们
+似乎在幼少之时就会学习
+如何判断蘑菇能否食用。
+
+&&recipe_effect_random 附加随机效果
+&&recipe_effect_dish_variable 提高菜肴整体效果
+
+%ITEM mtr_rocksolt0 岩盐
+能完美烘托出肉的香味，
+也可用来让蔬菜
+变得勉强能够下咽。
+
+%ITEM mtr_pepper 胡椒
+据说在旧文明尚存的时代
+其价值曾堪比金银财宝。
+如今竟能轻松买到，
+不禁感慨自己生在了好时代。
+%RECIPE_REPLACE mtr_pepper 胡椒
+
+%ITEM rotten_food 腐烂的食物
+因暴露在魔力环境下而腐烂的食物。
+已经不能吃了。
+
+
+%ITEM lunchbox 便当盒
+放入其中的菜肴
+不会因战斗结束而腐败。
+努力制作可爱的便当，
+拿给学校的小伙伴们炫耀吧。
+
+
+
+%ITEM special_inventory0 背包扩充道具
+可以用来扩充背包，
+增加道具的携带上限。
+
+
+
+&&Item_detail_inventory_increase2 物品栏最大上限 +&1\n(上限 &2)
+
+
+// ========================================================
+// MARK : ITEMREEL
+// ========================================================
+&&Item_cmd_reel_open_once 打开这个宝箱
+&&Item_cmd_reel_open_all 打开所有宝箱
+&&Item_cmd_inventory_expand 扩充容量
+
+&&Inventory_reel_content 内容
+// tab name
+&&Inventory_reel_booster 宝箱效果转轮
+&&Alert_reel_content_has_been_sent 宝箱内物品已送至仓库
+&&Alert_reel_cannot_open_in_battle 战斗中没有\n时间开启宝箱。
+&&Alert_cannot_eat_in_battle 战斗中没法\n悠闲地吃东西。
+&&Alert_cannot_inventory_enlarge 无法继续扩充容量。
+&&Alert_cannot_inventory_target_different 仓库容量无法扩充。
+&&Alert_no_lunchbox 缺少便当盒。
+
+
+&&ItemReel_Name_Base 宝箱: &1&2
+/* ___ ItemReel_Desc_Base ___ */
+装着未知道具的宝箱。
+打开时，当前危险度越高，
+内含道具的质量与数量
+也会相应地有所提升。
+
+
+%ITEMREEL wheat_G0 谷物1
+%ITEMREEL jewel_G0 宝石1
+%ITEMREEL ore_G0 矿石1
+%ITEMREEL demon_G0 魔族素材1
+%ITEMREEL demon_G1 魔族素材2
+%ITEMREEL demon_G2 魔族素材3
+%ITEMREEL demon_G3 魔族素材4
+%ITEMREEL fruit_G0 水果1
+%ITEMREEL fruit_G1 水果2
+%ITEMREEL sweat_G0 甜蔬1
+%ITEMREEL mush_G0 蘑菇1
+%ITEMREEL meat_G0 肉类1
+%ITEMREEL green_vegi_G0 绿色蔬菜1
+%ITEMREEL yellow_vegi_G0 红黄色蔬菜1
+%ITEMREEL variable_vegi_G0 各类蔬菜1
+
+
+
+&&recipe_item_categ_flower 花
+&&recipe_item_categ_seasoning 调味料
+&&recipe_item_categ_other 其他
+&&recipe_item_categ_fromnoel 诺艾儿自产
+
+&&Recipe_title_salad 沙拉
+&&Recipe_desc_salad 为喜欢蔬菜的人准备的菜品。
+
+&&Recipe_title_oil 油
+/* ___ Recipe_desc_oil ___ */
+虽然美味，摄入太多可不行。
+「是药三分毒」这句话
+似乎对此也多少有适用。
+
+&&Recipe_title_soup 汤
+&&Recipe_desc_soup 大半夜喝一口才最美味。
+
+&&Recipe_title_stew 炖菜
+/* ___ Recipe_desc_stew ___ */
+除了番茄酱以外，唯一一种
+能够容许放入番茄的菜品。
+
+&&Recipe_title_fried_vegi 炒杂蔬
+&&Recipe_desc_fried_vegi 精灵和兽人也能\n像这道菜一样融洽吗？
+
+&&Recipe_title_steak 牛排
+&&Recipe_desc_fried_vegi 味道能让人感受到自己活着。
+
+&&Recipe_title_burger 汉堡
+&&Recipe_desc_burger 绝不饶恕第一个\n把生番茄塞进汉堡里的人。
+
+&&Recipe_title_fried_egg 煎鸡蛋
+/* ___ Recipe_desc_fried_egg ___ */
+蛋料理可是很难做的哦？
+因为蛋清和蛋黄凝固的温度不一样，
+所以就算是做煎蛋卷，要想做好吃
+也必须得先把蛋充分打匀……
+就是会让提尔德哥哥变得如此滔滔不绝的一道菜。
+
+&&Recipe_title_morning_set 早晨套餐
+&&Recipe_desc_morning_set 舒适的一天岂能少得了它。
+
+
+&&food_in_lunchbox &1便当
+
+
+
+%ITEM mtr_gecko_skin0 爬虫类皮肤
+一种主要来源于蛇型魔族的素材。
+掂在手上相当沉。
+
+%ITEM mtr_seed0 有毒种子
+一种主要来源于植物型魔族的素材。
+
+
+
+%ITEM mtr_weed0 枯草
+长在魔力浓郁的位置的植物最终留下的尸骸。
+可以作为制药素材使用，但味道相当苦。
+
+
+
+&&SkillItem_Map_title &1的地图
+&&SkillItem_Map_desc 能够用于了解&1的地形。\n但宝箱和魔族出没的位置并没有标在上面。

@@ -1,0 +1,300 @@
+%FAMILY zh-cn
+&&Submit    确认
+&&Reset    初始化
+&&Cancel    取消
+
+&&lang_ja 日本語(JP)
+
+&&lang_en 英語(EN)
+
+/* ___ Title_Announce_For_Sensitive ___ */
+未满18岁的玩家在游玩本游戏时，
+又或是在视频网站上发布包含该游戏画面的视频或直播时，
+请打开「健全模式」。
+
+若在现实中做出本游戏中描述的一些过激行为，
+将会受到严厉的处罚。
+正在看该段文字的史莱姆和蘑菇人们，
+切记不要随意把卵产在美少女炼金术师的体内。
+
+主人公诺艾儿的设定为15岁，
+但由于这个世界中1年为440天，
+在我们的世界中相当于18岁以上。
+
+&&btn_sensitive_off 我已满18岁且没有在录屏\n( 健全模式:关 )
+
+&&btn_sensitive_on  我未满18岁或者在录屏中\n( 健全模式:开 )
+
+&&Title_first_tutorial 按<key la/><key ra/>切换选项，按下<key submit/>决定
+
+&&Name_Noel         诺艾儿・柯涅尔
+&&Name_Alice        爱丽丝
+
+&&Destination       往&1
+
+&&Area_forest   编织者之森
+&&Area_city  恩惠之城「格拉提亚」
+&&Area_house  魔女的杂货店
+
+
+
+&&btn_new_game 开始游戏
+&&btn_continue 继续游戏
+&&btn_option 设置
+&&btn_quit 结束
+
+
+/* ___ SaveDataDesc_auto  ___ */
+自动保存资料
+总游玩时间: &1
+※体验版的存档在之后的版本中有较大可能无法读取。
+
+/* ___ SaveDataDesc  ___ */
+存档 &1
+总游玩时间: &2
+※体验版的存档在之后的版本中有较大可能无法读取。
+
+
+/* ___ SaveDataDesc_Empty_auto ___ */
+没有自动保存资料。
+
+/* ___ SaveDataDesc_Empty ___ */
+存档 &1
+(空)
+
+&&SVD_Error_Occured 文件头读取失败
+
+&&SVD_0 自动保存:
+&&SVD_topright HP &1/&2, MP &3/&4
+
+&&SVD_ignore_svd_cfg 无视存档内的设置
+&&SVD_cmd_load 读取
+&&SVD_cmd_load_do 读取
+&&SVD_cmd_save 覆盖存档
+&&SVD_Load_Ask_Again 要放弃现在的游戏，\n读取存档 &1 吗？
+
+&&SVD_need_bench <font color="#E70B0B">只有在长椅或据点处才能够保存。</font>
+
+&&Stat_Condition       异常状态
+&&Stat_Condition_And_Ep       异常状态与敏感状态
+&&Stat_Ep       敏感状态
+&&Stat_no_status_error ... 没有异常
+
+&&GameMenu_Category_Title_0     状态
+&&GameMenu_Category_Title_1     道具
+&&GameMenu_Category_Title_2     魔法
+&&GameMenu_Category_Title_3     技能
+&&GameMenu_Category_Title_4     地图
+&&GameMenu_Category_Title_5     剧情
+&&GameMenu_Category_Title_6     保存／读取
+&&GameMenu_Category_Title_7     设置
+
+
+
+
+&&Money_Counter <img mesh="money_icon" /> <b>&1</b>
+&&EmptyBottle_Counter <img mesh="itemicon_empty_bottle_filled" />空瓶子: <b>&1/&2</b>
+
+
+&&SerTitle_hp_reduce    濒死
+&&SerDesc_hp_reduce     <font color="#FF729F">【HP在最大HP的15%以下】</font>\nHP为0的话将失去抵抗能力。
+
+
+&&SerTitle_mp_reduce    枯竭
+&&SerDesc_mp_reduce    <font color="#FF729F">【MP在最大MP的30%以下】</font>\n无法进行奔跑和闪避。
+
+&&SerTitle_death    无法战斗
+&&SerDesc_death    <font color="#FF729F">【HP为0】</font>\n在怪物们满足回去之前，\n请耐心等待吧。
+
+&&SerTitle_sexercise    催淫
+&&SerDesc_sexercise  兴奋度更容易上升。\n能略微防止MP条的破裂。
+
+&&SerTitle_shamed    羞耻
+&&SerDesc_shamed    因为羞耻导致精神很难集中的状态。\n虽然在和敌人接触时更不容易摔倒，\n但在咏唱时受到攻击的话更容易散落魔力。
+
+&&SerTitle_shamed_split    羞耻(魔力流失)
+&&SerDesc_shamed_split    因为羞耻导致精神很难集中的状态。\n虽然在和敌人接触时更不容易摔倒，\n但在咏唱时受到攻击的话更容易散落魔力。
+
+&&SerTitle_shamed_wet    羞耻(沾湿)
+&&SerDesc_shamed_wet    弄脏了内裤的状态。\n虽然在和敌人接触时更不容易摔倒，\n但在咏唱时受到攻击的话更容易散落魔力。
+
+&&SerTitle_shamed_ep    羞耻(兴奋)
+&&SerDesc_shamed_ep    <font color="#FF729F">【兴奋度在50%以上】</font>\n无法抑制住性兴奋的状态。\n虽然在和敌人接触时更不容易摔倒，\n但在咏唱时受到攻击的话更容易散落魔力。
+
+&&SerTitle_shamed_orgasm_after    高潮后
+&&SerDesc_mp_reduce    <font color="#FF729F">【MP在最大MP的30%以下】</font>\n无法进行奔跑和闪避。
+
+&&SerTitle_egged    怀卵
+&&SerDesc_egged    子宫中怀有魔物的卵的状态。\n魔法攻击力略微上升，但会降低咏唱速度和普通攻击力。\n会对魔法的咏唱和「魔法霰弹」产生反应，并吸收MP。\n非战斗状态时可自行取出。
+
+&&SerTitle_egged_2    怀卵 Lv.2
+&&SerDesc_egged_2  <font color="#FF729F">【卵填充70%以上的MP条】</font>\n兴奋度变得更容易上升。\nMP条变得非常容易破裂。\n产卵时的排出时间增加一倍。\n卵会自动排出。
+
+
+&&SerTitle_laying_egg    产卵
+&&SerDesc_laying_egg    魔物的卵孵化，并往子宫外排出的状态。\n在产卵结束之前无法行动。
+
+&&SerTitle_do_not_lay_egg    无法产卵
+&&SerDesc_do_not_lay_egg    产道中塞满了异物，似乎无法将卵排出。
+
+&&SerTitle_eaten   丸吞
+&&SerDesc_eaten   被吞进魔物体内的状态。\n进行抵抗，或者等魔物自己吐出。
+
+&&SerTitle_orgasm    恍惚
+&&SerDesc_orgasm    刚高潮过后的状态。\n到恢复正常为止将受到1.5倍的伤害。\n能够防止MP条的破裂。\n此外，兴奋度也变得更容易上升。
+
+
+&&SerTitle_shield_break    破盾
+&&SerDesc_shield_break    护盾被击碎的状态。\n到恢复正常为止将受到1.5倍的伤害。
+
+
+
+/* ___　PopUp_bench  ___ */
+按<key menu />打开菜单
+... 可以进行保存。
+
+
+
+&&Log_supply_juice  散落的魔力装满了瓶子
+&&Alert_item_holdover 身上带的东西太多了，装不下 <b>&1</b> ...
+&&Alert_event_item_holdover 但是身上带的东西太多了...
+&&Alert_pee 失禁了...
+&&Alert_orgasm_splash 爱液随着水声溅射出来了...
+
+&&Alert_nearly_laying 肚子里面感觉有异样...
+
+&&Alert_worm_eggplant 被虫子们产下了卵...
+&&Alert_slime_eggplant 被史莱姆产下了卵...
+&&Alert_laying_egg_worm 子宫里的卵孵化了，生出了幼虫...
+&&Alert_laying_egg_slime 子宫里的卵孵化了，生出了史莱姆...
+
+&&Alert_ep_thresh0 腹部的深处变热了…
+&&Alert_ep_thresh1 爱液正在流出…
+&&Alert_ep_orgasm 被弄到高潮了…
+&&Alert_ep_orgasm_cli 因为阴蒂被爱抚高潮了…
+&&Alert_ep_orgasm_vagina 因为阴道中的抽插高潮了…
+&&Alert_ep_orgasm_anal 因为后庭里的抽插高潮了…
+&&Alert_ep_orgasm_breast 因为没能忍耐住乳头被缠紧的刺激高潮了…
+&&Alert_ep_orgasm_mouth 因为注入到嘴里的催淫液高潮了…
+&&Alert_ep_orgasm_ear 因为耳朵感受到的暖热刺激高潮了…
+&&Alert_ep_orgasm_masturbation 诺艾儿因为自己的爱抚高潮了…
+&&Alert_ep_orgasm_slime 因为被史莱姆玩弄全身高潮了…
+&&Alert_ep_orgasm_worm 因为被虫子侵犯了身上所有的洞高潮了…
+&&Alert_ep_orgasm_laying_egg 在卵对产道的刺激中高潮了…
+
+&&Alert_gameover 输掉了...
+
+&&Alert_autosave 自动保存完成。
+&&Alert_summoner_defeated 敌人的气息消失了。暂时应该是安全的…
+
+
+
+&&ep_category_cli 阴蒂
+&&ep_category_vagina 阴道
+&&ep_category_anal 肛门
+&&ep_category_breast 乳头
+&&ep_category_mouth 口
+&&ep_category_ear 耳朵
+&&ep_category_masturbation 自慰
+&&ep_category_slime 史莱姆
+&&ep_category_worm 虫
+&&ep_category_laying_egg 怀卵
+
+&&Alert_cure_crack 心之容器稍微恢复了一些…
+
+&&GM_ep_debug 兴奋度: &1 ／ 高潮的次数: &2
+&&GM_ep_experience 开发度(&1) ... &2
+&&GM_ep_level_after_orgasm  <font color="#D3006D">因为高潮的余韵无法动弹...</font>
+&&GM_ep_level_0 　没有什么特别的感觉。
+&&GM_ep_level_1 　没有什么特别的感觉。
+&&GM_ep_level_2 　没有什么特别的感觉。
+&&GM_ep_level_3 　<font color="#72486D">感觉到一点快感... </font>( 兴奋度: &1 )
+&&GM_ep_level_4 　<font color="#72486D">感觉到一点快感... </font>( 兴奋度: &1 )
+&&GM_ep_level_5 　<font color="#7C2A73">肚子深处感到酥麻难耐... </font>( 兴奋度: &1 )
+&&GM_ep_level_6 　<font color="#7C2A73">肚子深处感到酥麻难耐... </font>( 兴奋度: &1 )
+&&GM_ep_level_7 　<font color="#C92D97">没法抑制住性兴奋... </font>( 兴奋度: &1 )
+&&GM_ep_level_8 　<font color="#C92D97">没法抑制住性兴奋... </font>( 兴奋度: &1 )
+&&GM_ep_level_9 　<font color="#F51AB0">感觉有什么从身体内部涌上来了...</font> ( 兴奋度: &1 )
+
+
+
+&&EV_access_collect   采集
+&&EV_access_getitem   获取
+&&EV_access_open_box   获取
+&&EV_access_default_check   查看
+&&EV_access_default_talk   对话
+&&EV_access_sitdown   坐下
+&&EV_access_into   进入
+
+&&Item_get   <key submit/>获取
+&&Item_has   <font size="12">(持有: &1 )</font>
+&&Item_get_count   x&1
+&&Money_adding   <font size="12">+ &1</font>
+&&Money_reducing   <font size="12">- &1</font>
+
+&&MoneyBox_adding   获得了 <img mesh="money_icon" /><b>&1</b> 金币！
+
+&&Item_detail_cure_hp 恢复 &1 HP
+&&Item_detail_cure_mp 恢复 &1 MP
+&&Item_detail_cure_ep 降低 &1 兴奋度
+&&Item_detail_dmg_ep <font color="#864788">增加 &1 兴奋度</font>
+&&Item_detail_cure_ser 解除 &1 异常状态
+&&Item_detail_dmg_ser <font color="#864788">附加 &1 异常状态</font>
+&&Item_detail_cure_mp_crack 修复 &1 MP计量槽
+&&Item_detail_cannot_nest_multiple 无法多个叠加
+&&Item_detail_filled_bottle 空瓶子可以回收
+
+&&Item_detail_inventory_increase 道具栏上限 +&1
+
+&&Item_cmd_use 使用
+&&Item_cmd_useless (使用)
+&&Item_cmd_discard_water 将瓶子清空
+&&Item_cmd_drop 扔掉
+
+&&Item_desc_cannot_use 现在用似乎没有效果......
+&&Item_desc_decline_holding_magic 使用魔法／保持魔法时\n似乎没法分心使用......
+&&Item_desc_decline_dmg 由于正在受到伤害\n现在无法使用......
+&&Item_desc_decline_dead 来人......
+
+&&Item_dbox_water_to_bottle 使用空瓶子可以收集 &1 份
+&&Item_dbox_water_to_bottle_none 没有空瓶子的情况下只能持有\n &1 份
+
+&&Item_dbox_stock 可叠加: &1
+
+
+
+
+&&Enemy_SLIME 史莱姆
+&&Summoner__enemy_id_overdrived_suffix (污染体)
+
+
+&&Summoner__initialize 长按<key submit/>或\n采集魔力植物开始战斗
+
+/* ___ Summoner__descryption ___ */
+危险度: &1
+可能出现的的敌人:
+&2
+污染体: 最多 &3 单位
+
+
+
+&&Summoner_forest_tutorial 穿林日光之庭
+&&Summoner_forest_coroseum 迷途者
+&&Summoner_forest_mushpot 原本想实装蘑菇人的地方
+&&Summoner_forest_darkpot 黄昏骤雨
+&&Summoner_forest_thorn_cage 鸟笼
+
+
+
+
+
+
+&&Item_desc_suffix_water    有瓶子的话可以携带多份。
+&&Item_desc_suffix_bottled_water    使用后的空瓶子可以重新利用。
+
+
+&&GM_desc_map_0_no_marker     <key a/>现在的位置　<key_s submit/>设置标记
+&&GM_desc_map_0     <key a/>现在的位置　<key submit/>设置标记
+
+
+&&Category_under_construction    未实装

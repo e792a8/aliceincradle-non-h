@@ -1,0 +1,553 @@
+%FAMILY zh-cn
+&&Btn_move 移动到这里
+&&EV_access_goout   出去
+&&Confirm 确认
+&&Eat 食用
+
+&&KD_change_info <key a/>信息切换
+
+&&GameMenu_Category_Title_stat     状态
+&&GameMenu_Category_Title_item    道具
+&&GameMenu_Category_Title_magic     魔法
+&&GameMenu_Category_Title_skill     技能   
+&&GameMenu_Category_Title_enhancer     强化
+&&GameMenu_Category_Title_map     地图
+&&GameMenu_Category_Title_bench     长椅
+&&GameMenu_Category_Title_scenario     剧情
+&&GameMenu_Category_Title_svd_select     保存／读取
+&&GameMenu_Category_Title_config     设置
+
+&&GameMenu_Bench_Front 诺艾儿坐在长椅上时\n可以使用以下指令。\n&1
+
+&&GM_desc_map_1_no_marker     <key lsh/>自由移动模式 <key a/>现在位置　<key_s submit/>标记设置
+&&GM_desc_map_1     <key lsh/>自由移动模式 <key a/>现在位置　<key submit/>标记设置
+
+&&GM_desc_map_2_no_marker     <key lsh/>标记移动模式 <key a/>现在位置　<key_s submit/>快速传送
+&&GM_desc_map_2     <key lsh/>标记移动模式 <key a/>现在位置　<key submit/>快速传送
+&&EV_desc_msg     <key cancel/>/<key submit/> <shape right_arrow/>
+&&EV_desc_msg_last     <key cancel/>/<key submit/> <shape check/>
+
+&&Mstb_KeyHelp 长按<key cancel/>/<key menu/>中断
+
+
+&&GM_desc_fasttravel_here     现在诺艾儿的位置。
+
+&&GameMenu_map_fasttravel <img mesh="wmap_bench"/><i>可以传送到曾经坐过的长椅上。</i>
+
+
+
+&&SerTitle_burned    着火
+&&SerDesc_burned     衣服着火的状态。\n等待其自然熄灭、或者通过接触水解除。
+
+
+
+// ========================================================
+// MARK : BENCH
+// ========================================================
+
+
+&&Bench_Cmd_cure_hp 恢复HP
+&&Bench_Cmd_cure_cloth 修补衣服
+&&Bench_Cmd_cure_ep 抚慰自己
+&&Bench_Cmd_cure_egged 将卵排出(未实装)
+&&Bench_Cmd_fast_travel 快速传送
+&&Bench_Cmd_save 保存
+
+&&Bench_Cmd_pee 小便
+&&Bench_Cmd_pee_excrete 小便(清空吃过的东西)
+&&Bench_Cmd_shower 淋浴
+&&Bench_Cmd_shower_ep 淋浴(将性兴奋度初始化)
+
+
+&&Bench_execute_cure_hp 恢复了HP。
+&&Bench_execute_cure_cloth 修补好了衣服。
+
+
+// ========================================================
+// MARK : SKILL
+// ========================================================
+&&Skill_tab_title_punch 攻击
+&&Skill_tab_title_guard 防御
+&&Skill_tab_title_magic 魔法
+&&Skill_tab_title_hp 体力
+&&Skill_tab_title_mp 魔力
+
+&&CheckBox_Use 启用
+&&CheckBox_Auto_Bench 在坐下时自动执行
+
+&&Skill_title_punch 弱攻击
+&&Skill_manipulate_punch <key z/>
+
+// ========================================================
+// MARK : Enhancer
+// ========================================================
+
+&&Enhancer_cannot_change 无法在战斗中变更。
+&&Enhancer_desc_fav <key a/>加入收藏
+
+// ========================================================
+// MARK : Enemy Spot
+// ========================================================
+
+
+/* ___ Summoner__obtainable_dangerousness ___ */
+( 上升量: &1 )
+
+// ちなみに、↓のようなシステム使用のタグだけを記した（翻訳の必要のない）
+// データは、翻訳テキストである _en_tx2.txt にコピペしなくてもOKです。
+// If you don't have to translate sentences, you don't have to paste them into the localization script.
+
+&&Summoner_dangerous_full &1 / &2
+&&Summoner_dangerous_weaken <font color="ff:#E19EF1">&1 / &2</font>
+
+
+// ========================================================
+// MARK : status effect
+// ========================================================
+
+&&Stat_food_time_left <font color="#FF2B79">【有效时间:剩余&1】</font>
+&&Stat_not_eaten_anything 肚子饿了……。\n<font color="ff:#6D72FF">【空腹食用料理时可以获得1.5倍的特殊效果】</font>
+
+&&Stat_Condition_Confuse_hide_hp_mp <font color="ff:#C41793">因混乱Lv.2的效果而无法显示</font>
+&&Stat_Lv_Sizing    <font size="75%">Lv.&1</font>
+&&Stat_Lv    Lv.&1
+&&SerTitle_confuse    混乱
+&&SerDesc_confuse    上下左右的操控颠倒。
+&&SerDesc_confuse_2    显示HP,MP的界面变得不可见。
+&&SerDesc_confuse_3    <font color="ff:#FF2B79">状态页面和道具页面\n的文字乱码化。</font>
+
+
+
+
+&&SerTitle_paralysis    麻痹
+&&SerDesc_paralysis （仅在战斗中）身体偶尔会因麻痹而产生短暂硬直。
+&&SerDesc_paralysis_3   无法进行奔跑和闪避。\n此状态持续到战斗结束。
+
+&&SerTitle_sleep    睡眠
+&&SerDesc_sleep    忍不住睡意。\n在醒来之前无法行动。\n受到攻击会略微缩短睡眠时间。
+
+
+&&SerTitle_orgasm_after    恍惚
+&&SerDesc_orgasm_after 刚刚高潮过后的状态。\n无法进行奔跑、且移动速度减慢。\n稍微防止MP计量槽的碎裂。\n降低魔力的恢复效率。
+&&SerDesc_orgasm_after_2    大幅降低魔力的恢复效率。\n遭到性方面的攻击时更难从拘束状态中脱离。
+
+
+&&SerTitle_frustrated    欲火中烧
+/* ___ SerDesc_frustrated ___ */
+性欲得不到满足的状态。
+在遭到性方面攻击时非常难从拘束状态中脱离。
+MP的吸收效率显著增大。
+站着不动的话会擅自开始自慰。
+高潮过后会自动解除，但解除后会进入恍惚Lv.2状态，
+并且需要输入更多指令来起身。
+
+
+&&SerTitle_forbidden_orgasm    禁止高潮
+&&SerDesc_forbidden_orgasm 性兴奋度最高会止于95%。\n更容易出现欲火中烧状态。
+
+&&SerReject_run 因异常状态而无法奔跑！
+&&SerReject_evade 因异常状态而无法闪避！
+
+&&corrupt_orgasm_after 变得敏感的地方遭到进攻，逐渐失去了反抗的力气…
+&&corrupt_frustrated 弱点遭到进攻，逐渐失去了反抗的力气…
+&&corrupt_paralysis 因为身体的麻痹，逐渐失去了反抗的力气…
+
+&&corrupt_forbidden 好想去，但是去不了…！
+
+
+// ========================================================
+// MARK : Status Other UI
+// ========================================================
+
+&&Status_Tab_condition 异常状态
+&&Status_Tab_food 食物的特殊效果
+&&Status_Tab_sexual 敏感的信息
+&&Status_Tab_dangerousness 区域的危险度
+/* ___ Dangerousness_text ___ */ 
+危险度: &1
+天气 ...
+
+&&Weather_normal 通常
+/* ___ Weather_desc_normal ___ */ 
+平淡无奇的天气。
+
+
+&&Weather_wind 旋风
+/* ___ Weather_desc_wind ___ */ 
+自己的魔法咏唱速度以及
+敌人的行动速度变为1.5倍。
+
+&&Weather_init_log_wind  风变大了...
+
+&&Weather_thunder 雷暴
+/* ___ Weather_desc_thunder ___ */ 
+部分敌人变为污染体的可能性增大。
+
+&&Weather_init_log_thunder  雷雨迫近了...
+
+&&Weather_mist 雾天
+/* ___ Weather_desc_mist ___ */ 
+从魔力植物获得的魔力变为2倍。
+敌人变得也可以回收金色的魔力球。
+
+&&Weather_init_log_mist  起雾了...
+
+&&Weather_drought 干旱
+/* ___ Weather_desc_drought ___ */ 
+从魔力植物获得的魔力变为1/4。
+敌人和自己被击中时更容易失去魔力。
+敌人出现时会持有更多魔力。
+
+&&Weather_init_log_drought  魔力变得稀薄了...
+
+&&Weather_mist_dense 浓雾
+/* ___ Weather_desc_mist_dense ___ */ 
+从魔力植物获得的魔力变为3倍。
+敌人变得也可以回收金色的魔力球。
+周围会变得非常难看清。
+
+&&Weather_init_log_mist_dense  雾变得更浓了...
+
+&&Weather_plague 瘟疫
+/* ___ Weather_desc_plague ___ */ 
+敌人和自己的异常状态发生率显著提升。
+
+&&Weather_init_log_plague  感觉身上十分不舒服...
+
+// ========================================================
+// MARK : Item
+// ========================================================
+&&Item_dbox_water_cannot_obtain 由于未持有空瓶所以无法取得
+&&Item_desc_suffix_water_needs_empty_bottle 转移时需要持有空瓶。
+
+&&Item_list_sort_newer 排序：最新
+&&Item_list_sort_kind 排序：种类
+&&Item_list_sort_abc 排序：名称
+&&Item_list_sort_price 排序：价格
+&&Item_list_sort_cost 排序：消耗
+&&Item_list_sort_equip 排序：装备／收藏
+
+&&Item_Tab_main 背包
+&&Item_Tab_house 仓库
+&&Item_Tab_precious 贵重物品
+
+&&Inventory_noel 手持道具
+&&Inventory_house 仓库
+&&Inventory_precious 贵重物品
+&&Inventory_enhancer 强化
+
+&&Inventory_stackable 可堆叠
+
+&&Item_cmd_lunchtime 食用
+&&Item_cmd_move 整理道具
+
+&&cannot_take_need_container_item 需要 &1 才能拾起带走
+&&cannot_take_need_enough_room 背包已满
+&&cannot_take_other_reason 由于某种原因无法转移
+
+&&KD_start_manage <key c/>整理道具
+&&KD_itemmove_whole <key c/>将整格物品送往&1 <key a/>在另一侧显示
+
+// ========================================================
+// MARK : Scenario
+// ========================================================
+&&Scenario_Tab_main 主线剧情
+&&Scenario_Tab_backlog 对话日志
+
+// ========================================================
+// MARK : Store
+// ========================================================
+&&cmd_buy 购买
+&&cmd_sell 卖出
+&&cmd_cart 确认购物车
+&&cmd_checkout 结账
+&&cmd_checkout_submit 确定收付款后离开
+&&cmd_checkout_abort 取消收付款后离开
+
+&&Store_title_buy 购买道具
+&&Store_title_sell 卖出道具
+&&Store_title_checkout 确认订单后将会完成交易，确定吗?
+
+&&Store_prompt_title_buy 购买多少？
+&&Store_prompt_title_sell 卖出多少？
+&&Store_selling_precious_things 这是很重要的东西、\n还是不要卖掉比较好。
+
+
+&&Store_checkout_product <font size="16">(购买 &1 个商品 )</font>
+&&Store_checkout_selling <font size="16">(卖出 &1 个商品 )</font>
+&&Store_checkout_after 余额: &1
+
+&&Store_no_enough_money <b>钱好像不太够了... </b>
+
+&&Store_topright_buying 库存数
+
+&&item_tab_product 商品
+
+&&item_tab_cart_buy 购买物
+&&item_tab_cart_sell 售出物
+
+&&product_count 库存: &1
+&&selling_count 卖出: &1
+&&buying_price_count 购买: &1
+&&selling_price_count 卖出: &1
+
+&&Store_desc_buying <key c/>放入1个到购物车 <key cancel/>返回
+&&Store_desc_buying_turnback <key c/>从购物车中返还1个 <key cancel/>返回
+&&Store_desc_selling <key c/>卖出1个 <key cancel/>返回
+&&Store_desc_selling_turnback <key c/>返还1个到背包 <key cancel/>返回
+
+&&inventory_count 持有: &1
+
+// ========================================================
+// MARK : Alchemy
+// ========================================================
+
+&&Item_for_food_cost 整体饱腹度: &1
+&&Item_for_food_cost_and_category 食材饱腹度: &1 (&2 )
+&&Item_for_food_effect 烹饪后的特殊效果: \n
+&&Item_for_food_effect_content &1 (效力: &2 )
+&&Item_for_food_no_effect 烹饪后的特殊效果: 无
+
+
+&&Alchemy_recipe_is_useable 可以制作
+&&Submit_alchemy 开始炼金
+&&Submit_cook 开始烹饪
+&&alchemy_back_to_parent 返回&1 的制作
+
+&&alchemy_ingredient_title 制作 <b>&1</b> 所需要的素材:
+&&alchemy_effect 影响度: &1%
+&&alchemy_completion_image 制作完成后的 &1 的效果\n将在这里显示。
+
+&&alchemy_auto_q 目标质量
+&&alchemy_auto_cost 目标饱腹度
+&&alchemy_auto_kind 选择物品种类
+&&alchemy_auto_quantity 选择加入量
+
+&&alchemy_auto_few 数量较少的
+&&alchemy_auto_enough 数量较多的
+&&alchemy_auto_random_alchemy 按炼金术师的心情
+&&alchemy_auto_random_cook 按厨师的心情
+
+&&alchemy_auto_quantity_minimum 最低限度
+&&alchemy_auto_quantity_maximum 最大限度
+
+
+&&alchemy_auto_confirm 自动加入
+&&alchemy_auto_previous 按照上一次的配方加入
+
+&&alchemy_auto_cannot_create 材料好像不太够了...
+&&alchemy_manual_create 手动制作
+
+&&alchemy_auto_high_cost 吃饱饱
+&&alchemy_auto_low_cost 少吃点
+
+&&alchemy_keydesc_confirm_empty <key submit/>决定 <key a/>自动填充(所有)
+&&alchemy_keydesc_confirm <key submit/>决定 <key a/>自动填充(所有) <key c/>放回1个 <key lsh />+<key c/>初始化(所有)
+
+&&alchemy_keydesc_ingredient_empty <key submit/>选择道具 <key a/>自动填充
+&&alchemy_keydesc_ingredient <key submit/>选择道具 <key a/>自动填充 <key c/>放回1行物品 <key lsh />+<key c/>初始化本行
+
+&&alchemy_keydesc_content_sendback <key c/>放回1个
+&&alchemy_keydesc_content_cancel <key cancel/>取消
+&&alchemy_keydesc_content_basic <key submit/>加入
+&&alchemy_keydesc_content_basic_enough <key_s z/>加入
+&&alchemy_keydesc_content_recipe <key a/>现在制作
+&&alchemy_keydesc_content_recipe_enough <key_s a/>现在制作
+&&alchemy_keydesc_content_recipe_cannot <key_s a/>未持有这个道具的配方
+
+&&item_current_obtain 现在持有数: &1
+&&item_create_count 制作&1 个
+
+
+
+&&alchemy_complete <font size="28" color="ff:#FA6234">&1</font>\n\n<font size="22"> 制作成功！</font>
+&&alchemy_complete_multi <font size="28" color="ff:#FA6234">&1</font>\n\n<font size="22"> &2个制作成功！</font>
+&&alchemy_complete_inventory_over 不过背包好像已经满了... ( 多出了&1个 )
+
+&&alchemy_btn_eat_in 马上开吃
+&&alchemy_btn_cancel 取消制作
+&&alchemy_btn_drop 确认(多余的销毁)
+
+&&alchemy_success <i>炼金成功！</i>
+&&cook_success <i>烹饪成功！</i>
+
+// ========================================================
+// MARK : Lunch time
+// ========================================================
+&&lunch_detail_effect 这份料理的信息 :
+&&lunch_detail_ingredient 这份料理的菜谱 :
+
+
+&&lunch_stomach_pre 现在诺艾儿的状态 :
+&&lunch_stomach_after 食用后的状态 :
+&&lunch_effect_double <font color="ff:#6D72FF"><b>\< 空腹加成 (效果变为&1倍!) \></b></font>
+&&lunch_effect_double_s <font color="ff:#6D72FF">【空腹加成】</font>
+&&lunch_cost_burst <font color="ff:#A00B35">\< 太多吃不下了 (效果减少&1%) \></font>
+&&lunch_confirm_full_header <font color="ff:#A00B35">\< 已经什么都吃不下了… \></font>
+
+&&lunch_confirm 要吃下<b>「&1」</b>吗？
+&&lunch_confirm_double <font color="ff:#6D72FF">肚子饿的时候吃饭更美味哦！</font>\n要吃下<b>「&1」</b>吗？
+&&lunch_confirm_burst <font color="ff:#A00B35">因为肚子饱了会吃不完</font>\n还是要吃下<b>「&1」</b>吗？
+&&lunch_confirm_dupe <font color="ff:#B828AC">虽然可能无法获得所有营养</font>\n还是要吃下<b>「&1」</b>吗？
+&&lunch_confirm_full <font color="ff:#A00B35">肚子已经满了什么都吃不下了…</font>
+
+
+&&lunch_tag_burst <font color="ff:#A00B35">
+&&lunch_tag_dupe <font color="ff:#B828AC">
+&&lunch_tag_added <font color="ff:#6D72FF">
+&&lunch_suffix_dupe <font color="ff:#B828AC"><img mesh="alert_triangle" width="20" tx_color />重复了</font>
+&&stomach_no_effect 没什么特别的效果
+
+
+
+// ========================================================
+// MARK : Treasure box reel
+// ========================================================
+&&Reel_keydesc_prepare <key submit/><key c/>开启宝箱 <key a/>查看宝箱与转轮加成 <key cancel/>取消
+&&Reel_keydesc_opening_finished <key submit/><key c/>获取道具 <key cancel/>取消
+&&Reel_keydesc_opening <key submit/><key c/>(长按)停止转轮 <key cancel/>取消
+&&Reel_keydesc_opening_not_cancelable <key submit/><key c/>(长按)停止转盘
+
+&&Reel_detail_reel_title 转轮图案一览
+&&Reel_keydesc_detail <key a/><key cancel/>取消
+&&Reel_keydesc_detail_itembox <key submit/>开启这个宝箱 <key a/><key cancel/>取消
+
+
+&&Reel_etype_prefix     转轮: &1
+&&Reel_etype_GRADE1     品级＋
+&&Reel_etype_COUNT_ADD1 数量＋
+&&Reel_etype_COUNT_MUL1 数量×
+&&Reel_etype_ADD_MONEY  金币＋
+&&Reel_etype_RANDOM     福袋
+&&Reel_etype_RARE_ADD1  素材稀有度＋
+&&Reel_etype_GRADE2     品级＋＋
+&&Reel_etype_COUNT_ADD2     数量＋＋
+&&Reel_etype_GRADE3     品级＋＋＋
+&&Reel_etype_COUNT_ADD3     数量＋＋＋
+
+
+
+// ========================================================
+// MARK : 2202 追加分
+// ========================================================
+
+
+&&SerTitle_parasitised    植物寄生
+/* ___ SerDesc_parasitised ___ */
+HP会被慢慢夺走。
+不打倒寄生者就无法解除。
+
+&&Store_selling_food 这是我要吃的食物。
+&&alchemy_never_created 还没制作过这种料理。
+
+&&Item_cmd_takeout_food 从便当盒中取出
+&&Item_cmd_pack_in_box 放入便当盒
+
+
+&&Bench_Cmd_wait_nightingale 等待商人
+&&Bench_Cmd_reset_all 全部重置
+&&Bench_Cmd_fast_travel_home 回到据点
+&&Alert_no_magic_puzzle 在这里无法使用魔法。
+&&Alert_cannot_fast_travel 夜间和雨天时无法使用快速传送。
+&&Alert_dangerous <font size="16"><b><img mesh="alert" tx_color /> 危险：仅凭现有的装备有败北的可能</b></font>
+
+&&Bench_execute_cure_mp 恢复了MP，并且修复了MP计量槽。
+
+
+&&Alert_bench_execute_scenario_locked 现在无法使用。
+&&Alert_bench_execute_only_in_safe_area 仅可在据点内使用。
+&&Alert_no_need_lay_egg 体内没有被产下任何东西。
+&&Alert_layed_egg 想办法把卵排出来了...。
+&&Alert_no_pee_go_out 没有什么能排出的东西。
+&&Alert_no_content_in_stomach 肚子空了...。
+&&Alert_stomach_item_lost &1 的效果结束了。
+&&Alert_dishes_rotten &1 个料理腐烂了...。
+&&Alert_no_nightingale 商人并没有出现。
+
+&&Alert_item_reduced 丢失了 &2 个&1 。
+&&Alert_item_reduced_laevi 把 &2 个&1 交给了姐姐。
+
+&&Bench_Cmd_cure_mp MP恢复<img mesh="wholemap_house" tx_color />
+
+
+&&Bench_Cmd_shower_clean_cure_cloth 修补衣服＋清洗身体
+&&Bench_Cmd_shower_cure_cloth 修补衣服
+&&Bench_Cmd_shower_clean 清洗身体
+
+&&Bench_Cmd_restroom_cure_egged 把卵排出
+&&Bench_Cmd_cure_ep_sensitivity 初始化性兴奋度(未实装)
+
+// &&Bench_Cmd_cure_ep_sensitivity 调整性兴奋度积累的速度
+
+
+
+
+&&Summoner_no_reward 宝箱报酬: 无
+
+/* ___ WarpConfirm_having_food ___ */
+手上还有 &1 个料理没有放入便当盒。
+战斗结束时，所有的料理都会腐烂掉不能再食用。
+就这样出发没问题吗？
+
+
+/* ___ current_dangerous ___ */
+现在的危险度: &1
+/* ___ WarpConfirm_treasurebox ___ */
+开启所有宝箱，
+确认其中的道具，并返回据点。
+确定吗?
+
+/* ___ WarpConfirm_returnback ___ */
+返回据点。
+确定吗？
+
+/* ___ WarpConfirm_nightingale ___ */
+消耗一些饱腹度，
+等待南丁格尔小姐的到来。
+但根据她的位置
+有可能并不会现身。
+
+
+
+&&Submit_goout    了解出发
+&&Submit_deposit_goout    把料理放入仓库出发
+&&Submit_gohome    返回据点
+&&Submit_gohome_opening_box 开启宝箱，返回据点
+&&Submit_wait    等待
+
+&&Alert_depositted_food 把&1 个料理放入了仓库。
+
+&&alchemy_ingredient_or 任意加入以下材料:
+
+
+&&Config_Btn_QuitGame 结束游戏
+&&Confirm_QuitGame 确定要结束游戏吗？
+&&Submit_Quit 结束
+&&Submit_GoToTitle 回到标题页面
+
+
+&&SerTitle_burst_tired    昏迷
+&&SerDesc_burst_tired     因使用圣光爆发带来的精神负荷导致无法行动的状态。\n在恢复之前无法行动且无法再次使用圣光爆发。
+
+
+// ========================================================
+// MARK : 220518 (ver0.20k)
+// ========================================================
+&&Reel_tab_item 宝箱转轮
+&&Reel_tab_effect 效果转轮
+&&Reel_need_subtract 可使用的效果转轮最多为 &1 个。\n在开启宝箱前仍需丢弃 &2 个。
+&&Reel_subtract_confirm 即将丢弃选中的 &1 个效果转轮。\n确认吗？
+&&Submit_discard 丢弃
+&&KeyDesc_discard <key submit/>选中／取消选中
+&&KeyDesc_discard_enable_submit <key a/><key cancel/>完成
+&&KeyDesc_discard_disable_submit <key_s a/><key_s cancel/>完成
+
+// 今後追加したい任意時間出発要素...
+&&Depert_from_noon 从第&1天的早上开始 (危险度：&2)
+&&Depert_from_evening 从第&1天的黄昏开始 (危险度：&2)
+&&Depert_from_night 从第&1天的夜晚开始 (危险度：&2)
+
+
+&&Depert_you_can_do_fast_travel 只要还未开始战斗，\n夜间出发后也可以进行快速传送。
+
+&&Tuto_crouch <key ba/>+<key la/> 蹲伏移动

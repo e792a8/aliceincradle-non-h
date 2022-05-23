@@ -1,0 +1,69 @@
+%FAMILY zh-cn
+
+/* ___ _eventboard_forest_witchboard_00 ___ */
+←←←
+前方是柯涅尔工房
+
+/* ___ _eventboard_forest_witchboard_01 ___ */
+←
+马上就到柯涅尔工房了
+此处荆棘丛生，要当心头顶哦
+
+
+/* ___ _eventboard_forest_witchboard_tuto00 ___ */
+<font size="25">
+<key la/><key ra/> 移动
+<key z/> 弱攻击
+</font>
+假如发现看上去可以破坏的
+可疑墙壁就敲一下试试吧→→
+
+/* ___ _eventboard_forest_witchboard_tuto01 ___ */
+<font size="25"><key a/> 地图</font>
+也许向着地图左方的据点
+「魔女的杂货店」出发会比较好
+
+
+/* ___ _eventboard_forest_witchboard_tuto02 ___ */
+<font size="25">长按<key x/>使用魔法</font>
+使用弱攻击摘取花草意味着侵入敌人领地，
+将会引发战斗。
+预留出充足的距离和时间，咏唱魔法准备迎战吧。
+
+/* ___ _eventboard_forest_witchboard_tuto03 ___ */
+・按下两次<key la/>或<key ra/>可进行冲刺。
+・同时按下<key z/>+<key x/>可以取消魔法。
+
+/* ___ _eventboard_forest_witchboard_tuto04 ___ */
+・中断魔法咏唱后按下<key z/>可以使出强力的近身攻击「魔法霰弹」。
+・以最大充能状态使出的「魔法霰弹」，拥有较高的威力和异常状态附加概率，
+　但咏唱到一半就中断的话就只能打出微弱的伤害。
+・顺带一提按下<key lsh/>就能暂时中断咏唱。
+
+
+/* ___ _eventboard_temporary_201003  ___ */
+・在床上休息可以修复破裂的MP条。
+・目前还没有自行处理卵和性亢奋的手段。
+　也许之后会加入在长椅处XXXX的功能…
+・就算不坐在长椅或床上面，站在附近也能进行保存。
+・将来预定会添加在长椅之间快速传送的功能。
+・最开始诺艾儿是对性一无所知的少女，
+　但如果想要观看她的痴态的话，就试试让她在催淫、抱卵状态下被敌人打败吧。
+・如果想要重置因性经验提高的兴奋度增长倍率，请调查一下左边的书架。
+・可提升兴奋度的食物最多只能将其提升到70%，无法单靠吃食物达到高潮。
+
+&&UIGM_temporary_mutation 还未实装
+
+
+/* ___ _eventboard_forest_witchboard_evadion ___ */
+<font size="25"><key lsh/> 护盾
+<key la/>或<key ra/> + <key lsh/> 闪避</font>
+在空中进行闪避可以稍微増加跳跃距离，
+请多多使用吧！
+
+
+/* ___ _eventboard_forest_witchboard_bomb ___ */
+<font size="25">
+在按下<key ba/>的同时按<key x/> 使用炸弹</font>
+有很多只有炸弹才能破坏的地方。
+看到可疑的墙壁就用下试试吧。

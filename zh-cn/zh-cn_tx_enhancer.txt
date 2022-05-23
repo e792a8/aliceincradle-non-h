@@ -1,0 +1,45 @@
+%FAMILY zh-cn
+
+// ========================================================
+// MARK : Enhancer
+// ========================================================
+
+&&Enhancer_title_hp_eye 血之虹瞳
+/* ___ Enhancer_desc_hp_eye ___ */
+可以看到已给予过伤害的
+敌人的体力与魔力。
+
+&&Enhancer_title_cliff_stopper 抓地鞋
+/* ___ Enhancer_desc_cliff_stopper ___ */
+不会因闪避、跌倒起身，以及自身攻击的
+反作用力而从平台边缘跌落。
+
+&&Enhancer_title_overspell 超载咏唱
+/* ___ Enhancer_desc_overspell ___ */
+魔力不足时，使用的魔法
+或施放的魔法霰弹的威力上升。
+（最大为2倍）
+
+&&Enhancer_title_anchor 身体的心得
+/* ___ Enhancer_desc_anchor ___ */
+与敌人接触时不容易摔倒。
+
+&&Enhancer_title_long_reach 长法杖
+/* ___ Enhancer_desc_long_reach ___ */
+弱攻击，以及魔法霰弹的攻击距离提升。
+
+&&Enhancer_title_secure_absorb 磁性之心
+/* ___ Enhancer_desc_secure_absorb ___ */
+因吸收攻击而失去的魔力减少。
+
+&&Enhancer_title_soul_eater 灵魂吞噬者
+/* ___ Enhancer_desc_soul_eater ___ */
+因直接攻击敌人所夺取的魔力量上升。
+
+&&Enhancer_title_falling_cat 坠落的猫
+/* ___ Enhancer_desc_falling_cat ___ */
+在空中发动魔法时，进一步减缓下落速度。
+
+&&Enhancer_title_double_evade 双重闪避
+/* ___ Enhancer_desc_double_evade ___ */
+获得连续闪避2次的能力。

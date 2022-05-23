@@ -1,0 +1,4 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the 
+// StreamingAssets directory.

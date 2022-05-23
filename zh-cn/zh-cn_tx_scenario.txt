@@ -1,0 +1,22 @@
+%FAMILY zh-cn
+
+// ========================================================
+// MARK : PURPOSE
+// ========================================================
+
+&&Svd_phase_0 序幕
+&&Svd_phase_1 苏醒的睡美人
+&&Svd_phase_2 幽灵
+&&Svd_phase_3 忒修斯之船
+&&Svd_phase_4 不可思议的世界
+&&Svd_phase_5 Alice・in・Cradle
+&&Svd_phase_6 尾声 - 星星
+
+&&scenario_desc_pvv_0000 到看起来能破坏的墙的对面去探索
+&&scenario_desc_pvv_0001 回家
+&&scenario_desc_pvv_0002 去上普莉姆拉老师的课
+&&scenario_desc_pvv_0100 和家人或客人聊天
+&&scenario_desc_pvv_0101 寻找伊夏同学
+&&scenario_desc_pvv_0102 前往城镇
+&&scenario_desc_pvv_0103 给兽人帮忙
+&&scenario_desc_pvv_0104 击败大型魔族救出伊夏同学

@@ -1,0 +1,61 @@
+// For translaters:
+// In the next version, this txt file containing the
+// entire event statement will be exported to the
+// StreamingAssets directory.
+
+// =====================
+// Add an asterisk at the beginning of the sentence
+// to define the event name and label.
+// =====================
+// ========================================================
+// MARK : ___Other/Skill_need_shield
+// ========================================================
+
+
+
+
+*___Other/Skill_need_shield n_01
+咳，咳，呜呜呜……。
+
+*n_02
+想探索这里的话，
+必须要学会如何在水里
+坚持更长时间才行……。
+
+
+*n_03
+回想一下老师教过的技巧吧。
+按下<key lsh/>可以展开护盾……。
+
+*n_04
+护盾除了能够<c blue>防住有毒的空气以外，
+也能用于在水里维持一段时间的呼吸。</c>
+在移动的平台上使用试试看吧。
+*
+另外，按下 <key lsh/>+<key la/><key ra/> 进行闪避
+能在空中停留更久。
+感觉快要掉下去的时候
+就试试看吧……。
+
+*n_06
+……仔细一看，护盾技能还没有
+设置为启用呢。
+得按<key menu/>打开菜单
+设置一下才行。
+
+
+// ========================================================
+// MARK : トイレでの汎用
+// ========================================================
+*s01_restroom n_00
+得把衣服，仔细洗干净……。
+
+*s01_restroom n_01
+……肚子好沉……。
+得用劲把里面的东西
+排出来才行……。
+
+
+
+*___House/_restroom_portal n_lay_egg00
+<m fadein>呜呜呜…………。

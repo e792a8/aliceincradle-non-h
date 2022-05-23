@@ -1,0 +1,184 @@
+%FAMILY zh-cn
+
+// ========================================================
+// MARK : SKILL
+// ========================================================
+
+/* ___ Skill_desc_punch ___ */
+挥动法杖攻击敌人。
+威力很小，但在难以获取足够的魔力时，
+可以用来从敌人身上夺取魔力。
+
+
+&&Skill_title_shotgun 魔法霰弹
+&&Skill_manipulate_shotgun 中断咏唱后按下<key z/>
+
+/* ___ Skill_desc_shotgun ___ */
+近距离引爆魔法能量，对敌人造成大量伤害。
+威力和效果由当前正在咏唱的魔法种类决定。
+
+
+
+&&Skill_title_sliding 滑铲
+&&Skill_manipulate_sliding <key ba/>+<key z/>
+
+/* ___ Skill_desc_sliding ___ */
+对着下方发动十分不可靠的攻击。
+需要注意在碰到敌人，或是从高处落下时会摔倒。
+
+
+
+&&Skill_title_guard 护盾
+&&Skill_manipulate_guard <key lsh/>
+
+/* ___ Skill_desc_guard ___ */
+防御敌人攻击，也可以避免吸入有毒气体。
+若多次受到物理攻击则有可能遭到破坏。
+
+
+&&Skill_title_evade 闪避
+&&Skill_manipulate_evade <key lsh/>+<key la/><key ra/>
+
+/* ___ Skill_desc_evade ___ */
+
+进入短暂的无敌状态，闪避敌人的攻击。
+可根据按下<key la/><key ra/>的时长调整移动距离。
+也可以在空中使用，
+能够稍微延长一点滞空时间。
+
+
+&&Skill_title_guard_bush 护盾冲击
+&&Skill_manipulate_guard_bush <key lsh/>+<key z/>
+
+/* ___ Skill_desc_guard_bush ___ */
+将护盾的能量向外扩散。
+若在受到敌人攻击的瞬间释放，
+则能以猛烈的力度将其击退。
+
+
+&&Skill_title_evade_dancing 轮舞斩击
+&&Skill_manipulate_evade_dancing 地面上闪避时<key la/><key ra/>+<key z/>
+/* ___ Skill_desc_evade_dancing ___ */
+闪避敌人的攻击后，拉近距离进行还击。
+在正确时机按下<key z/>键可追加最多三次攻击，
+但只有命中敌人的第一发可被魔法霰弹强化。
+使用护盾冲击弹开敌人的攻击后同样可以使用该技能。
+
+
+
+&&Skill_title_guard_lariat 护盾回旋
+&&Skill_manipulate_guard_lariat <key lsh/>+<key z/>+<key la/><key ra/>
+
+/* ___ Skill_desc_guard_lariat ___ */
+将护盾与施法者分离开来旋转挥舞。
+因为击中敌人会消耗护盾的强度，
+所以无法在短时间内连续使用。
+需要注意，若在挥舞护盾时有敌人进入到护盾内侧，
+则施法者会陷入无法防备的状态。
+
+
+
+&&Skill_title_burst 圣光爆发
+&&Skill_manipulate_burst 同时长按<key z/>+<key x/>
+
+/* ___ Skill_desc_burst ___ */
+一口气引爆魔力猛击敌人，并将周围的敌人震开。
+除非施法者HP降至0，
+否则这个魔法在任何时候均可发动。
+
+
+
+
+
+&&Skill_title_wheel 旋风斩击
+&&Skill_manipulate_wheel 在空中时按下<key z/>+<key la/><key ra/>
+
+/* ___ Skill_desc_wheel ___ */
+一边旋转一边向敌人突进。
+保持魔法时，可对命中的所有敌人
+造成低威力的魔法霰弹伤害。
+发动前后均会露出较大的破绽。
+
+
+
+&&Skill_title_comet 彗星俯冲
+&&Skill_manipulate_comet 在空中时按下<key z/>+<key ba/>
+
+/* ___ Skill_desc_comet ___ */
+高速下落，对正下方发动攻击。下落过程中对大部分攻击免疫。
+保持魔法时，能对命中的第一个敌人造成高威力的魔法霰弹伤害。
+除此之外威力和弱攻击相同。
+
+
+&&Skill_title_hp5 HP+5
+&&Skill_manipulate_hp5 
+
+/* ___ Skill_desc_hp5 ___ */
+最大HP增加 5 点。
+
+
+&&Skill_title_hp10 HP+10
+&&Skill_manipulate_hp10 
+
+/* ___ Skill_desc_hp10 ___ */
+最大HP增加 10 点。
+
+
+&&Skill_title_hp20 HP+20
+&&Skill_manipulate_hp20 
+
+/* ___ Skill_desc_hp20 ___ */
+最大HP增加 20 点。
+
+
+&&Skill_title_mp5 MP+5
+&&Skill_manipulate_mp5 
+
+/* ___ Skill_desc_mp5 ___ */
+最大MP增加 5 点。
+
+
+&&Skill_title_mp10 MP+10
+&&Skill_manipulate_mp10 
+
+/* ___ Skill_desc_mp10 ___ */
+最大MP增加 10 点。
+
+&&Skill_title_mp20 MP+20
+&&Skill_manipulate_mp20 
+
+/* ___ Skill_desc_mp20 ___ */
+最大MP增加 20 点。
+
+/* ___ Skill_title_sp_bird ___ */
+羽翼护符
+/* ___ Skill_desc_sp_bird ___ */
+一张护符，上面描绘着名为鸟的旧时代生物。
+能够使用可防护敌人攻击与空气污染的护盾，
+以及可以短暂进入无敌状态的闪避动作。
+
+
+
+// ========================================================
+// MARK : 2022 2月
+// ========================================================
+
+
+&&Skill_title_ukemi 跌倒起身
+&&Skill_manipulate_ukemi <key lsh/>+<key la/><key ra/>
+
+/* ___ Skill_desc_ukemi ___ */
+
+当被敌人击飞时，在落地的瞬间
+输入闪避操作则可以从跌倒状态起身。
+若是在处于枯竭状态等原本无法进行闪避的情况下使用，
+闪避后将会摔倒。
+
+
+/* ___ Skill_title_sp_difficulty0 ___ */
+埴轮人偶的护符
+
+/* ___ Skill_desc_sp_difficulty0 ___ */
+大幅提高HP与MP上限，但减少获得宝箱的概率。
+需要启用时请按下<key menu/>打开菜单后
+在「技能」栏位里设置为「启用」。
