@@ -104,7 +104,7 @@
 &&SerDesc_mp_reduce    <font color="#FF729F">【MP在最大MP的30%以下】</font>\n无法进行奔跑和闪避。
 
 &&SerTitle_death    无法战斗
-&&SerDesc_death    <font color="#FF729F">【HP为0】</font>\n在怪物们满足回去之前，\n请耐心等待吧。
+&&SerDesc_death    <font color="#FF729F">【HP为0】</font>\n在怪物们满足回去之前，\n请耐心等待吧。\n<font color="#FF729F">长按<key cancel/>放弃...
 
 &&SerTitle_sexercise    催淫
 &&SerDesc_sexercise  兴奋度更容易上升。\n能略微防止MP条的破裂。
