@@ -289,8 +289,8 @@ Choose your display language.
 
 
 
-&&Config_Shield_Hold_Evadable Evasion in Shield
+&&Config_Shield_Hold_Evadable 展开护盾时闪避
 /* ___ Config_desc_Shield_Hold_Evadable ___ */
-Choose whether you start evasion 
-when <key la/><key ra/> is tapped 
-during you are deploying the shield.
+设置展开护盾时，
+是否能通过短按<key pad la/><key pad ra/>
+来进行闪避。
